@@ -36,9 +36,20 @@ USE P_421_Import;
 
 --25-35
 -- 2001 - 1991
-SELECT 
-    [Студент] = FORMATMESSAGE(N'%s %s %s', last_name, first_name, middle_name),
-	[Возраст] = DATEDIFF(HOUR,birth_date,GETDATE())/8766
-FROM  Students
-WHERE birth_date > N'1991-01-01' AND birth_date < N'2001-01-01';
+--SELECT 
+--  [Студент] = FORMATMESSAGE(N'%s %s %s', last_name, first_name, middle_name),
+--	[Возраст] = DATEDIFF(HOUR,birth_date,GETDATE())/8766
+--FROM  Students
+--WHERE birth_date > N'1991-01-01' AND birth_date < N'2001-01-01';
 
+--SELECT 
+--    [Группа] = group_name,
+--    [Кол-во студентов] = COUNT(stud_id) 
+--FROM Students, Groups
+--WHERE [group] = group_id 
+--GROUP BY group_name;
+
+--SELECT 
+--	[Группа] = group_name
+--FROM Groups,Students
+--WHERE stud_id = 0
