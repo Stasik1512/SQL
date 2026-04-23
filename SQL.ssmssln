@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # SQL Server Management Studio Solution File, Format Version 20.00
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL", "SQL\SQL.ssmssqlproj", "{0B1458C7-39B5-4B0A-B8AD-CDC509EB20F7}"
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "DDL", "DDL\DDL.ssmssqlproj", "{12EFC609-253C-472C-A070-CEC0CA60161E}"
 EndProject
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "DDL", "DDL\DDL.ssmssqlproj", "{6CDD3296-B811-4353-B190-E66E4D825718}"
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL", "SQL\SQL.ssmssqlproj", "{0B1458C7-39B5-4B0A-B8AD-CDC509EB20F7}"
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "DML", "DML\DML.ssmssqlproj", "{6C22696B-116C-4644-84DC-3B8CFE71D2EA}"
 EndProject
@@ -13,17 +13,20 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Transact-SQL", "Transact-SQ
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "StoredProcedures", "StoredProcedures\StoredProcedures.ssmssqlproj", "{770F084B-2A91-48C2-BBFF-B57CA45E79E0}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Functions", "Functions\Functions.ssmssqlproj", "{2598FB2B-8294-495E-8576-46FC1E8D6B1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CDBA9FEB-42EB-41E2-BC5E-FE01E0A06CD3}.Default|Default.ActiveCfg = Default
+		{CB88BF8A-9991-4B79-85EA-CA527A6CB75B}.Default|Default.ActiveCfg = Default
+		{12EFC609-253C-472C-A070-CEC0CA60161E}.Default|Default.ActiveCfg = Default
 		{0B1458C7-39B5-4B0A-B8AD-CDC509EB20F7}.Default|Default.ActiveCfg = Default
-		{6CDD3296-B811-4353-B190-E66E4D825718}.Default|Default.ActiveCfg = Default
 		{6C22696B-116C-4644-84DC-3B8CFE71D2EA}.Default|Default.ActiveCfg = Default
 		{7EE00000-6C86-4518-B5AD-7B46A309DF95}.Default|Default.ActiveCfg = Default
 		{770F084B-2A91-48C2-BBFF-B57CA45E79E0}.Default|Default.ActiveCfg = Default
+		{2598FB2B-8294-495E-8576-46FC1E8D6B1D}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
