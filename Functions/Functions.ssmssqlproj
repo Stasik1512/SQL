@@ -34,6 +34,12 @@
           <AssociatedConnUserName />
           <FullPath>SQLQuery1.sql</FullPath>
         </FileNode>
+        <FileNode Name="SQLQuery2-GetNextLeaningDate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-EEBLL69\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-EEBLL69\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2-GetNextLeaningDate.sql</FullPath>
+        </FileNode>
         <FileNode Name="SQLQuery2-GetNextLeaningDay.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-EEBLL69\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-EEBLL69\SQLEXPRESS</AssociatedConnSrvName>
