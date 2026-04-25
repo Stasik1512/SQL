@@ -24,7 +24,7 @@ BEGIN
 		SET @time = @start_time;
 		EXEC sp_InsertLesson @group, @discipline, @teacher,@date, @time OUTPUT, @lesson_number OUTPUT;
 		EXEC sp_InsertLesson @group, @discipline, @teacher,@date, @time OUTPUT, @lesson_number OUTPUT;
-		SET @date = DATEADD(DAY, IIF(DATEPART(WEEKDAY, @date) = 2,2,5),@date);
+		SET @date = dbo.GetNextLearningDate(@group_name,@date); --DATEADD(DAY, IIF(DATEPART(WEEKDAY, @date, ) = 2,2,5),@date);
 	END
 
 END

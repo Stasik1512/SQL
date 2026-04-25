@@ -1,5 +1,5 @@
 --SQLQuery2-GetNextLeaningDate.sql
-USE P_421_ImporT;
+USE P_421_Import;
 SET DATEFIRST 1;
 GO
 CREATE OR ALTER FUNCTION GetNextLearningDate(@group_name AS NVARCHAR(10), @date AS DATE) RETURNS DATE
