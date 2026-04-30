@@ -1,0 +1,3 @@
+USE P_421_Import
+SELECT TOP 5 * FROM DaysOFF;
+SELECT TOP 5 * FROM Holidays;
