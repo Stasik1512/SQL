@@ -11,13 +11,13 @@ ALTER PROCEDURE sp_InsertSchedule
 
 AS
 BEGIN
-	DECLARE @group AS INT = (SELECT group_id FROM Groups WHERE group_name = @group_name);
-	DECLARE @discipline AS INT = (SELECT discipline_id FROM Disciplines WHERE discipline_name LIKE @discipline_name);
-	DECLARE @number_of_lessons AS TINYINT = (SELECT number_of_lessons FROM Disciplines WHERE discipline_id = @discipline)
-	DECLARE @lesson_number AS TINYINT = (SELECT COUNT(lesson_id)FROM Schedule WHERE [group] = @group AND discipline =@discipline);
-	DECLARE @teacher AS INT = (SELECT teacher_id FROM Teachers WHERE last_name LIKE @teacher_name OR first_name LIKE @teacher_name);
-	DECLARE @date AS DATE = @start_date;
-	DECLARE @time AS TIME(0) = @start_time;
+	DECLARE @group				AS INT = (SELECT group_id FROM Groups WHERE group_name = @group_name);
+	DECLARE @discipline			AS INT = (SELECT discipline_id FROM Disciplines WHERE discipline_name LIKE @discipline_name);
+	DECLARE @number_of_lessons	AS TINYINT = (SELECT number_of_lessons FROM Disciplines WHERE discipline_id = @discipline)
+	DECLARE @lesson_number		AS TINYINT = (SELECT COUNT(lesson_id)FROM Schedule WHERE [group] = @group AND discipline =@discipline);
+	DECLARE @teacher			AS INT = (SELECT teacher_id FROM Teachers WHERE last_name LIKE @teacher_name OR first_name LIKE @teacher_name);
+	DECLARE @date				AS DATE = @start_date;
+	DECLARE @time				AS TIME(0) = @start_time;
 
 	WHILE @lesson_number < @number_of_lessons
 	BEGIN
