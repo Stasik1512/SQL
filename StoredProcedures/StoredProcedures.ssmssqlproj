@@ -46,11 +46,23 @@
           <AssociatedConnUserName />
           <FullPath>SQLQuery2-INSERT Schedule.sql</FullPath>
         </FileNode>
+        <FileNode Name="SQLQuery7-INSERT-DateOFF.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-EEBLL69\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-EEBLL69\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery7-INSERT-DateOFF.sql</FullPath>
+        </FileNode>
         <FileNode Name="SQLQuery7-sp_SetAllHolidaysFor.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-EEBLL69\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-EEBLL69\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery7-sp_SetAllHolidaysFor.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery7-sp_SetDaysOFF.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-EEBLL69\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-EEBLL69\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery7-sp_SetDaysOFF.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
