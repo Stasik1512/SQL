@@ -6,7 +6,7 @@ GO
 --DROP PROCEDURE IF EXISTS sp_InsertSchedule;
 GO
 
-CREATE PROCEDURE sp_InsertSchedule
+CREATE OR ALTER PROCEDURE sp_InsertSchedule
     @group_name NVARCHAR(10),
     @discipline_name NVARCHAR(150),
     @teacher_name NVARCHAR(50),

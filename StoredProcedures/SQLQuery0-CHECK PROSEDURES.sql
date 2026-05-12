@@ -14,9 +14,11 @@ SET DATEFIRST 1;
 --FROM DaysOFF
 --JOIN Holidays ON (holiday = holiday_id)
 EXECUTE sp_InsertSchedule
-    @group_name = 'P_421',
+    @group_name = 'P_422',
     @discipline_name = '%ADO.NET',
     @teacher_name = 'Олег',
     @start_date = '2026-03-26',
     @start_time = '14:00',
     @days_of_week = '2, 4, 6';   -- вторник, четверг, суббота
+
+EXECUTE sp_SelectSchedule
